@@ -5,7 +5,7 @@ info:
   version: 'v1'
 servers:
   # product: https://<YOUR_REPO>.<YOUR_OWNER>.repl.co
-  - url: http://localhost:5002
+  - url: https://chatgpt-todolist.jdrusso.dev
 paths:
   /todos/{username}:
     get:

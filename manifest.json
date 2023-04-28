@@ -5,18 +5,15 @@
   "description_for_human": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
   "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
   "auth": {
-    "type": "service_http",
-    "authorization_type": "bearer",
-    "verification_tokens": {
-      "openai": "<YOUR_OPENAI_KEY>"
-    }
+    "type": "user_http",
+    "authorization_type": "bearer"
   },
   "api": {
     "type": "openapi",
-    "url": "https://<YOUR_REPO>.<YOUR_OWNER>.repl.co/openapi.yaml",
+    "url": "https://chatgpt-todolist.jdrusso.dev/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://<YOUR_REPO>.<YOUR_OWNER>.repl.co/logo.png",
+  "logo_url": "https://chatgpt-todolist.jdrusso.dev/logo.png",
   "contact_email": "<YOUR_EMAIL>",
   "legal_info_url": "http://www.example.com/legal"
 }
